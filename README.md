@@ -23,6 +23,15 @@
 
 要想使用本项目的规则集，参考[@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
 
+如果Clash无法从网络获取该规则集，可以选择本地文件加载规则集
+```yaml
+rule-providers:
+  proxy:
+      type: file
+      behavior: domain
+      path: ./ruleset/proxy.txt
+```
+
 ## 致谢
 
 - [@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
