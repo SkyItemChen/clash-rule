@@ -8,6 +8,9 @@
 
 更多说明请访问[@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
 
+## 补充原因
+因为需要制作一个满足代理白名单模式的规则，发现上述项目规则少了自己用到的链接，又因为不想后续编辑更多规则而麻烦，因此有了这个项目，直接下载导入方便多了
+
 ### 在线地址（URL）
 
 > 如果无法访问域名 `raw.githubusercontent.com`，可以使用第二个地址（`cdn.jsdelivr.net`），但是内容更新会有 12 小时的延迟。以下地址填写在 Clash 配置文件里的 `rule-providers` 里的 `url` 配置项中。
